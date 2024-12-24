@@ -10,7 +10,7 @@ formClose.addEventListener("click", ()=>{
 });
 
 var swiper = new Swiper(".review-slider", {
-    spaceBetwen:20,
+    spaceBetween:20,
     loop : true,
     autoplay :{
         delay:2500, 
@@ -31,7 +31,7 @@ var swiper = new Swiper(".review-slider", {
 
 
 var swiper = new Swiper(".brand-slider", {
-    spaceBetwen:20,
+    spaceBetween:20,
     loop : true,
     autoplay :{
         delay:2500, 
@@ -39,7 +39,7 @@ var swiper = new Swiper(".brand-slider", {
     },
     breakpoints:{
         450:{
-            slidesPerView:2,
+            slidesPerView:1,
         },
         768:{
             slidesPerView:2,
@@ -48,7 +48,7 @@ var swiper = new Swiper(".brand-slider", {
             slidesPerView:3,
         },
         1200:{
-            slidesPerView:3,
+            slidesPerView:4,
         },
     },
 });
